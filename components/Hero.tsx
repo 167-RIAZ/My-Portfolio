@@ -26,19 +26,19 @@ const Hero = () => {
 
       <div className="flex justify-center items-center relative my-12 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <a href="https://github.com/git-gizmo" target="_blank" className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 cursor-pointer inline-flex justify-center items-center">
-            Dive into my code Jungle
+          <a href="https://github.com/167-RIAZ" target="_blank" className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 cursor-pointer inline-flex justify-center items-center">
+            Lets get into My Codeverse
             <Image src="/git.svg" alt="Github" width={16} height={16} className="ml-1" />
           </a>
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Your Vision, My Keyboard, Let's Make Some Magic"
+            words="Your Vision, My Code, Let's Craft Something Amazing"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Greetings, earthlings! I&apos;m Boluwatife, a code-juggling Full-stack Developer from Nigeria.</p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hello, I&apos;m <span className="text-violet-500"> Syed Md Riaz</span>, a dedicated <span className="text-violet-500">Fullstack Developer</span> and tech enthusiast from India.</p>
 
-          <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer">
+          <a href="/Syed Md Riaz.Resume.pdf" download target="_blank" rel="noopener noreferrer">
             <MagicButton
               title="Resume"
               icon={<FaRegFilePdf />}

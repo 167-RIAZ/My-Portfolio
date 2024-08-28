@@ -81,123 +81,78 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "DocThud - Healthcare management system",
-    description: "DocThud is a comprehensive healthcare management system designed to streamline the process of booking medical appointments. The web app allows patients to easily find and schedule appointments with preferred doctors. The system also includes an admin page to manage the schedules, making healthcare more accessible and organized.",
-    img: "/projects-img/docthud.webp",
+    title: "CarePulse- Healthcare management system",
+    description: " is a comprehensive healthcare management system designed to streamline the process of booking medical appointments. The web app allows patients to easily find and schedule appointments with preferred doctors. The system also includes an admin page to manage the schedules, making healthcare more accessible and organized.",
+    img: "/projects-img/CarePulse.webp",
     iconLists: ["/next.svg", "/skills-icon/appwrite.svg", "/tail.svg", "/skills-icon/sentry.svg", "/skills-icon/twilio.svg"],
-    link: "https://docthud.vercel.app",
+    link: "https://careplus-six.vercel.app",
     code: 'https://github.com/GIT-Gizmo/docthud'
   },
   {
     id: 2,
-    title: "PromptSynth - AI-powered Promts",
-    description: "Prompt Synth is a full-stack web app that empowers users to share and explore powerful AI prompts.  Imagine a collaborative hub where you can discover new prompts for creative text generation, code completion, or image creation with artificial intelligence.",
-    img: "/projects-img/promptsynth.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/skills-icon/mongo.svg"],
-    link: "https://promptsynth.vercel.app",
-    code: 'https://github.com/GIT-Gizmo/promptsynth'
+    title: "AI ChatBot - Generative AI Web App",
+    description: "an interactive chatbot with real-time AI communication and UI enhancements.",
+    img: "/projects-img/AI-ChatBot.webp",
+    iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/skills-icon/bard.svg", "/skills-icon/vite.svg"],
+    link: "https://ai-chat-bot-cyan.vercel.app/",
+    code: 'https://github.com/167-RIAZ/Ai-chatBot'
   },
   {
     id: 3,
-    title: "AI Stitches - 3D Shirt Editing App",
-    description: "Design your dream T-shirt with AI Stitches! This web app lets you unleash your creativity with a fully customizable 3D T-shirt model. Upload your own logos and textures, or get inspired with AI-generated designs.",
-    img: "/projects-img/ai-stitches.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/skills-icon/bard.svg", "/skills-icon/vite.svg"],
-    link: "https://ai-stitches.vercel.app",
-    code: 'https://github.com/GIT-Gizmo/ai-stitches'
+    title: "Apple-visionPRO-website",
+    description: "This project aims to create a website for Apple Vision Pro, possibly a fictional product or service related to Apple’s technology. The website may showcase features, benefits, and other information related to this product/service.",
+    img: "/projects-img/VissionPro.webp",
+    iconLists: ["/next.svg", "/tail.svg", "/skills-icon/mongo.svg"],
+    link: "https://apple-vision-pro-project.vercel.app/",
+    code: 'https://github.com/167-RIAZ/Apple-visionPro-project'
   },
   {
     id: 4,
-    title: "Adroit Handyman - Handyman Services Company",
-    description: "A complete website revamp for Adroit Handyman Services, leveraging Next.js and its Server-Side Rendering (SSR) capabilities for a significant 30% reduction in server response times with increased load time speed, resulting in a noticeable increase in user engagement and sales for the company.",
-    img: "/projects-img/adroit.webp",
+    title: "Magma-3D - Real estate Services Company",
+    description: "An interactive 3D animated website using HTML, CSS, and JavaScript. It focuses on structuring content, styling animations, employing the Canvas API for dynamic graphics, and implementing scrolling effects while ensuring responsiveness.",
+    img: "/projects-img/Magma3D.webp",
     iconLists: ["/next.svg", "/tail.svg", "/skills-icon/express.svg", "/skills-icon/node.svg", "/fm.svg"],
-    link: "https://www.adroithandymanservices.com",
-    code: ''
+    link: "https://Magma-3-d.vercel.app/",
+    code: 'https://github.com/167-RIAZ/Magma-3D-',
   },
   {
     id: 5,
-    title: "Anime Crypt - Anime Library",
-    description: "Deepened my understanding of server-side rendering with Next.js by building a dynamic anime list application. Explored the power of TypeScript for type safety and Framer Motion for smooth animations.",
-    img: "/projects-img/anime_crypt.webp",
-    iconLists: ["/next.svg", "/tail.svg", "/fm.svg", "/ts.svg"],
+    title: "Portfolio",
+    description: " a modern portfolio project created with Next.js, showcasing a unique combination of technologies including Three.js, Framer Motion, and Tailwind CSS, designed to enhance user engagement and experience. It emphasizes various innovative features like interactive 3D elements, dynamic testimonials, and a responsive layout that adapt seamlessly across devices.",
+    img: "/projects-img/Portfolio.webp",
+    iconLists: ["/next.svg", "/tail.svg", "/fm.svg", "/ts.svg", "/npm.svg", "/shadcn.svg"],
     link: "https://anime-crypt.vercel.app",
     code: 'https://github.com/GIT-Gizmo/anime-crypt'
   },
   {
     id: 6,
-    title: "Home Seekr - A Real Estate Website",
-    description: "This project served as a learning experience for building CRUD web applications with user sign-in & sign-up authentication. Developed with React and Firebase, it showcases my ability to create interactive data-driven applications with secure user access.",
-    img: "/projects-img/home-seekr.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/skills-icon/firebase.svg", "/skills-icon/vite.svg"],
-    link: "https://home-seekr.vercel.app/sign-in",
-    code: 'https://github.com/GIT-Gizmo/home-seekr'
-  },
-  {
-    id: 7,
-    title: "Wings Trip - A Flight Booking Agency Landing Page",
-    description: "I explored building interactive elements using React to create a captivating landing page. The project served as a playground to solidify my understanding of Sass for styling and component management.",
-    img: "/projects-img/wingstrip.webp",
-    iconLists: ["/re.svg", "/skills-icon/scss.svg", "/skills-icon/vite.svg"],
-    link: "https://wingstrip.vercel.app",
-    code: 'https://github.com/GIT-Gizmo/Wings-Trip'
-  },
-  {
-    id: 8,
-    title: "Ehazypay - A Cryptocurrency Vendor Landing Page",
-    description: "This contract project involved building and managing a user-friendly single-page website for a trusted cryptocurrency vendor. The website simplifies the process for customers to directly buy and sell cryptocurrencies, enhancing their experience and accessibility.",
-    img: "/projects-img/ehazypay.webp",
-    iconLists: ["/skills-icon/html5.svg", "/skills-icon/css.svg", "/skills-icon/jquery.svg"],
-    link: "https://ehazypay.vercel.app",
-    code: 'https://github.com/GIT-Gizmo/ehazypay'
-  },
-  {
-    id: 9,
-    title: "Little Lemon - A Restaurant Website",
-    description: "This capstone project for the META Frontend Developer Specialization (Coursera) challenged me to build a full-fledged restaurant web app where customers can reserve tables, showcasing my skills in React, user interface design, and front-end development best practices.",
-    img: "/projects-img/little-lemon.webp",
-    iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://little-lemon-portfolio.vercel.app/",
-    code: 'https://github.com/GIT-Gizmo/little-lemon-portfolio'
-  },
-  {
-    id: 10,
-    title: "Honeybiis - A Restaurant Landing Page",
-    description: "Landing my first freelance gig, I created a visually compelling landing page for an online restaurant. This project allowed me to collaborate with a client and translate their vision into a design that drives customer engagement.",
-    img: "/projects-img/honeybiis.webp",
-    iconLists: ["/skills-icon/html5.svg", "/skills-icon/scss.svg"],
-    link: "https://honeybiis.vercel.app/",
-    code: 'https://github.com/GIT-Gizmo/honeybiis'
-  },
-  {
-    id: 11,
-    title: "Glamour Threads - A Clothe Store Landing Page",
-    description: "Demonstrating my newfound skills in SASS/SCSS, I created a stylish and functional landing page template tailored for online clothing stores. The project emphasizes clear product presentation and navigation to enhance the user experience.",
-    img: "/projects-img/glamour-threads.webp",
-    iconLists: ["/skills-icon/html5.svg", "/skills-icon/scss.svg"],
-    link: "https://glamour-threads.vercel.app/",
-    code: 'https://github.com/GIT-Gizmo/glamour-threads'
+    title: "Movie Review Website",
+    description: "The Movie Review Webpage is a dynamic and user-friendly platform that allows users to quickly access essential information about their favorite movies. Built using HTML, CSS, JavaScript, and API fetching, this web application enables users to search for a movie by its name and receive comprehensive details.",
+    img: "/projects-img/movie.webp",
+    iconLists: ["/skills-icon/js.svg"],
+    link: "movie-review-web-page.vercel.app",
+    code: 'https://github.com/167-RIAZ/Movie-Review-WebPage'
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "I had the pleasure to work with Boluwatife as he led our website revamp with exceptional skill. His high-quality work, ability to solve complex issues, and collaborative spirit were instrumental to the project's success. A talented developer and team player, David creates a positive work environment. I highly recommend him and would gladly work with him again.",
+      "I had the pleasure to work with Syed as he led our website revamp with exceptional skill. His high-quality work, ability to solve complex issues, and collaborative spirit were instrumental to the project's success. A talented developer and team player, David creates a positive work environment. I highly recommend him and would gladly work with him again.",
     name: "Timileyin Ogunleye",
     title: "CEO of Adroit Handyman Services",
     profileImg: "/timi.webp",
   },
   {
     quote:
-      "Boluwatife David is an outstanding developer who consistently goes above and beyond to achieve excellent results. He is not only a talented professional who loves to learn new things, he is also someone who knows a little about a lot of things and is ready to share.",
+      "Syed Md Riaz is an outstanding developer who consistently goes above and beyond to achieve excellent results. He is not only a talented professional who loves to learn new things, he is also someone who knows a little about a lot of things and is ready to share.",
     name: "Omotoyinbo Oluwadunsin",
     title: "UI/UX Developer",
     profileImg: "/dunsin.webp",
   },
   {
     quote:
-      "Boluwatife David is an exceptional React front-end developer with impressive skills in HTML, CSS, and JavaScript. He creates visually appealing, user-friendly interfaces and stays current with industry trends. His attention to detail, dedication, and problem-solving abilities make him an invaluable asset to any development team.",
+      "Syed Md Riaz is an exceptional React front-end developer with impressive skills in HTML, CSS, and JavaScript. He creates visually appealing, user-friendly interfaces and stays current with industry trends. His attention to detail, dedication, and problem-solving abilities make him an invaluable asset to any development team.",
     name: "Mr. Oluwaseun Matthew",
     title: "Business Automation Expert",
     profileImg: "/mr-seun.webp",
@@ -375,32 +330,33 @@ export const skills = [
 export const workExperience = [
   {
     id: 1,
-    title: "FullStack Dev - Adroit Hanyman",
-    description: "Revamped the company website, enhancing user experience, leading to increased traffic and engagement.",
+    title: "Summer Intern - Alloy Steels Plant",
+    description: "Designed and implemented advanced network systems, enhancing communication infrastructure and documenting network performance.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Frontend Dev - Swap Space",
-    description: "Developed user interface & features for real estate company by translating Figma design using React.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Full-Stack Developer Intern - Tech Solutions",
+    description: "Contributed to developing and deploying full-stack applications, including integrating APIs and optimizing performance.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Contract Front Dev - EhazyPay",
-    description: "Developed and maintained a landing page with intuitive user interface for a cryptocurrency vendor.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Frontend Developer - Creative Web Designs",
+    description: "Built responsive and user-friendly web interfaces, translating designs from Figma to functional React components.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Freelance Frontend Dev - Honeybiis",
-    description: "Built an attractive and user-friendly restaurant landing page for a client.",
+    title: "Academic Project - Heritage Institute of Technology",
+    description: "Optimized a circular antenna array using the Particle Swarm Optimization (PSO) algorithm as part of a key academic project. Demonstrated problem-solving skills and applied advanced algorithms to improve antenna performance.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  
 ];
 
 export const approach = [
@@ -440,18 +396,12 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
     name: "github",
-    link: "https://github.com/GIT-Gizmo"
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-    name: "twitter",
-    link: "https://twitter.com/dave_gizmo"
+    link: "https://github.com/167-RIAZ"
   },
   {
     id: 3,
     img: "/link.svg",
     name: "linkedin",
-    link: "https://linkedin.com/in/boluwatife-david"
+    link: "https://www.linkedin.com/in/syed-md-riaz-57b07a248"
   },
 ];

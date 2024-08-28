@@ -24,7 +24,7 @@ const Footer = () => {
                     Ready to take <span className="text-purple">your</span> digital presence to the next level?
                 </h1>
                 <p className="text-white-200 md:mt-10 my-5 text-center">Reach out today and let&apos;s discuss how I can help you achieve your goals.</p>
-                <a href="mailto:davidbolu12@gmail.com">
+                <a href="syed.riaz1406@gmail.com">
                     <MagicButton
                         title="Let's get in touch"
                         icon={<FaLocationArrow />}
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
 
             <div className="flex mt-16 flex-col md:flex-row justify-between items-center gap-3 md:gap-0 md:mb-6">
-                <p className="text-sm md:text-base font-light md:font-normal ">Copyright © Boluwatife 2024</p>
+                <p className="text-sm md:text-base font-light md:font-normal ">Copyright © Syed 2024</p>
 
                 <div className="flex items-center md:gap-3 gap-6">
                     {socialMedia.map(({ id, img, name, link }) => (

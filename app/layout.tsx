@@ -6,9 +6,9 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Boluwatife David, Full-Stack Developer",
+  title: "Syed's Portfolio",
   description:
-    "Hi, I'm Boluwatife an experienced Full Stack Developer proficient in ReactJS, Next.js for cutting-edge front-end solutions, and Node.js, PHP, Python for robust back-end architecture. Passionate about test-driven development, continuous learning, and delivering high-performance, data-driven web applications.",
+    "Hi, I'm Syed,This Is My Portfolio .",
 };
 
 export default function RootLayout({
